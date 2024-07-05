@@ -1,0 +1,152 @@
+/* Reset default margin and padding */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	color: #333;
+	line-height: 1.6;
+}
+
+/* Header styling */
+header {
+	background-color: #007bff;
+	color: white;
+	text-align: center;
+	padding: 1rem 0;
+}
+
+header h1 {
+	font-size: 2rem;
+}
+
+/* Main sections */
+section {
+	max-width: 800px;
+	margin: 2rem auto;
+	padding: 0 20px;
+}
+
+section h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	color: #007bff;
+}
+
+/* Projects section */
+.project {
+	display: flex;
+	margin-bottom: 2rem;
+}
+
+.project img {
+	width: 300px;
+	object-fit: cover;
+	object-position: left;
+	height: auto;
+	margin-right: 20px;
+	border-radius: 8px;
+}
+
+.project-details {
+	flex: 1;
+}
+
+.project-details h3 {
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+}
+
+.project-details .status {
+	height: 5px;
+	width: 100px;
+	margin-bottom: 1rem;
+}
+
+.project-details p {
+	margin-bottom: 1rem;
+}
+
+.project-details ul {
+	list-style-type: disc;
+	margin-bottom: 1rem;
+}
+
+.project-details a {
+	color: #007bff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.project-details a:hover {
+	text-decoration: underline;
+}
+
+.project-details .release-button {
+	margin-top: 1rem;
+}
+
+.project-details .btn-download {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	background-color: #28a745;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+	transition: background-color 0.3s;
+}
+
+.project-details .btn-download:hover {
+	background-color: #218838;
+}
+
+/* Skills section */
+#skills ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#skills li {
+	background-color: #007bff;
+	color: white;
+	padding: 0.5rem 1rem;
+	margin: 0.5rem;
+	border-radius: 4px;
+}
+
+/* Contact section */
+#contact ul {
+	list-style-type: none;
+}
+
+#contact li {
+	margin-bottom: 0.5rem;
+}
+
+#contact a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+#contact a:hover {
+	text-decoration: underline;
+}
+
+/* Status colors */
+.status.completed {
+	background-color: #28a745;
+}
+
+.status.in-progress {
+	background-color: #ffc107;
+}
+
+.status.not-started {
+	background-color: #dc3545;
+}
